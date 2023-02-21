@@ -1,4 +1,4 @@
-# hypothesis_generation
+# Hypothesis Generation
 Generate scientific hypotheses with the most information gain for the language model.
 
 from https://medium.com/@nullonesix/motivated-question-asking-ai-38876bdfe14b:
