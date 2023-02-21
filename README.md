@@ -25,9 +25,13 @@ What’s the pseudocode?
 End notes:
 
 this article came about with the realization that we don’t have many examples of AI that generally think for themselves
+
 usually either the AI is thinking about new data coming in (English text from the internet when training language models) or otherwise performing some predefined algorithm on old data (MCTS search on the current chess position)
+
 the question arose as to how to define thinking, and I took the scientific approach to be an approximation, i.e. hypothesis generation and subsequent testing of worthwhile hypotheses
+
 here the AI is generating its own data in a hypothesis generating process, selecting the best hypothesis to test based on its informativeness, and then testing that hypothesis by asking a human
-    this draws attention to two followup problems:
-    1. how to make the hypothesis generating process more efficient
-    2. how to automate hypothesis testing
+
+this draws attention to two followup problems:
+1. how to make the hypothesis generating process more efficient
+2. how to automate hypothesis testing
